@@ -5,9 +5,6 @@ app.get('/', (req, res) => {
     res.send('Hello World')
 })
 
-app.get('/hello', (req, res) => {
-    res.json({message: 'Hello World'})
-})
 
 const PORT = process.env.PORT || 8081 
 
