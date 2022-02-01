@@ -2,10 +2,10 @@
   "name": "testapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-"build": "babel server.js --out-file server.compiled.js"
+    "build": "babel server.js --out-file server.compiled.js"
   },
   "author": "",
   "license": "ISC",
